@@ -12,7 +12,7 @@ class Hotvay < Formula
     bin.install "#{buildpath}/build/bin/macosX64/releaseExecutable/hotvay.kexe" => "hotvay"
   end
 
-  plist_options :startup => true, :manual => "hotvay"
+  plist_options :startup => true
 
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
@@ -33,6 +33,7 @@ class Hotvay < Formula
       <string>/dev/null</string>
       <key>StandardOutPath</key>
       <string>/dev/null</string>
+    </dict>
     </plist>
     EOS
   end
