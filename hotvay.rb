@@ -1,7 +1,7 @@
 class Hotvay < Formula
   desc "Simple hotkey-daemon for 'Vaydeer - 9-key Smart Keypad'"
   homepage "https://github.com/nassendelft/hotvay"
-  url "https://github.com/nassendelft/hotvay/archive/refs/tags/v0.1.tar.gz"
+  url "https://github.com/nassendelft/hotvay/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "43cd659a34b7bb36a78ca280eb3c7af9bddf9a584f129dfe5dc000c62d3583c1"
   head "https://github.com/nassendelft/hotvay.git"
 
