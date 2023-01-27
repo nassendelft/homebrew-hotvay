@@ -2,7 +2,7 @@ class Hotvay < Formula
   desc "Simple hotkey-daemon for 'Vaydeer - 9-key Smart Keypad'"
   homepage "https://github.com/nassendelft/hotvay"
   url "https://github.com/nassendelft/hotvay/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "43cd659a34b7bb36a78ca280eb3c7af9bddf9a584f129dfe5dc000c62d3583c1"
+  sha256 "e2864e1b0b6732925109731695757404c4fa9e7c55d3ef4020439034f871bd80"
   head "https://github.com/nassendelft/hotvay.git"
 
   depends_on :xcode
